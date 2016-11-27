@@ -1,0 +1,35 @@
+1. Make sure to learn rebase. It seems like an advanced concept, but it's worth knowing. 
+Wouldst be willing to have a look at [Rebase as an alternative to Merge] (https://youtu.be/PnHlnx_nmCI) ? 
+
+Much of the content might not make sense. 
+
+But it's only 5 minutes, and it will build the terribly important skill of looking at little branch-ey tree-ey things and having some jargon like "hm-yes-merging-and-rebasing-hm-indeed-yes-hm" to mutter about it afterwards.
+
+2. Check out Git Flow - It's a good branching and merging model, and you only need a minimum of 2 branches to get started: 
+
+     * develop
+     * master 
+
+3. Make develop your default branch
+
+4. lock master, so that only admins can modify it. 
+
+5. Now, when you make changes, all the exciting stuff happens on develop, and, later, you can update master. 
+
+6. Set up ssh key access to your git repo. This way you only have to enter a password once per session, it doesn't have to be the password to your entire account.
+
+    a. Bit Bucket: [How to set up an SSH key for your account](https://confluence.atlassian.com/bitbucket/add-an-ssh-key-to-an-account-302811853.html)
+    b. Git Hub:    [https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+
+7. Does this all seem kind of confusing? Do you wonder if you really understand it? Welcome to the club. All of the rest of us (except, of course, the authors of git and elite build engineers) feel similarly. 
+However, you can test to make sure you have enough practical knowledge of this. 
+First, go to github.com, bitbucket.com, https://gitlab.com/users/sign_in, or some other git repo thingy, and find a friend to do the same. 
+Make a test repo, say, terrible_lies.
+Then, you commit some changes, say, "Make sure to always have dehydrated water, you never know when you might need it."
+Your friend and you then both clone the repo, using the clone feature of whatever service you've chosen. github.com and bitbucket.com both have instructions on how to clone available by searching for "clone github" and "clone bitbucket".
+Then, you can both make an edit in a place that will conflict, like, one of you changes the README.md to say "Make sure to always have EXTRA dehydrated H2O, BECAUSE YOU WILL DIE WITHOUT IT."
+The other changes it to say something different, like "Make sure to never have dehydrated water, use boneless apples in stead."
+
+Both of you commit your changes, but there will be a conflict! 
+
+Whoever ends up with an error that you have changes ahead will have to use git pull --rebase origin master. 
