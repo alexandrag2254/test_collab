@@ -12,5 +12,5 @@ Your flippahs. [Use them](https://youtu.be/Cm312ZiIrXU).
 
 
 
-        🐿  is this a chipmunk or a pika???
- 	🐻   Erm to thuuuuhhh grrrrrrr🐻 
+🐿  pika life 	
+🐻   Erm to thuuuuhhh grrrrrrr🐻 
