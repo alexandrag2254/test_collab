@@ -1,0 +1,4 @@
+1) Who are golfingirl54 and Cannula? I'm assuming alter egos of Alexandra and Nathan?
+2) Who is in charge of merging develop branch into master branch? Or are we just working in develop?
+3) Should we play around with access permissions? At the moment all three of us can push directly to the remote repo and I'm assuming we can all merge changes into the master branch. 
+4) From reading there are only two permission levels: the repository owners (which we all are currently) and collaborators which doesn't sound ideal to me. I might trust Nathan to push directly to remote repo but not want him to be able to merge changes into the master branch ;) I suppose the owners agree amongst themselves what the procedures will be and in any case changes to master branch can be rolled back
