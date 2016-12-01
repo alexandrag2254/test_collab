@@ -3,6 +3,7 @@ collab practice
 
 Nathan eats chicken, penguins detest him strongly.
 Alexandra does not eat fried chicken and penguins adore her!! 
+Michael does not eat fried chicken and penguins still detest him strongly :(
 
 🐧🐧🐧🐧  	🐧🐧🐧🐧  
 
