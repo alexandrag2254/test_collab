@@ -6,5 +6,6 @@
   ##  What's broken here?
 
 name = 'Alex'
-print ('My name is as follows: ' + name)
+print ('My name is ' + name and I am a talented Git developer)
 
+## Michael is writing a comment
