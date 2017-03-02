@@ -6,6 +6,6 @@
   ##  What's broken here?
 
 name = 'Alex'
-print ('My name is ' + name and I am a talented Git developer)
+print (My name is + name and I am a talented Git developer but am I really that talented?)
 
 ## Michael is writing a comment
